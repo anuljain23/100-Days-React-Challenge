@@ -1,0 +1,12 @@
+{
+    "name": "100-days-react-challenge",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": [
+        "day-*"
+    ],
+    "scripts": {
+        "info": "echo \"Run a project's dev server: npm run dev --workspace=<workspace-name>\"",
+        "list:workspaces": "node -e \"console.log(Object.keys(require('./package.json').workspaces))\""
+    }
+}
