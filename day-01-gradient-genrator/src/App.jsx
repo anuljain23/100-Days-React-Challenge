@@ -1,9 +1,8 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import NavBar from './components/NavBar'
 import { ViewContext } from './context/ViewContext'
 import CardPage from './components/CardPage'
 import FullScreenPage from './components/FullScreenPage'
-import GridPage from './components/GridPage'
 
 const App = () => {
   const { view } = useContext(ViewContext)
@@ -12,7 +11,6 @@ const App = () => {
       <NavBar />
       {view === 'card' ? (<CardPage />) : null}
       {view === 'fullscreen' ? (<FullScreenPage />) : null}
-      {view === 'grid' ? (<GridPage />) : null}
     </div>
   )
 }
