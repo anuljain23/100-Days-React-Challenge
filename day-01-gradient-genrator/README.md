@@ -15,8 +15,8 @@ This is **Day 1** of my **100 Days of React Challenge**.
 ---
 
 ## 📸 Preview
-![App Screenshot](./screenshot.png)  
-*(Add your app screenshot here)*
+![App Screenshot](./image.png)
+![App Screenshot](./image2.png)  
 
 ---
 
