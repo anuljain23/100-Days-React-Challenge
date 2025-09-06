@@ -1,12 +1,44 @@
-# React + Vite
+# 🎨 Gradient Generator (Day 1 of 100 Days of React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Random Gradient Generator** built with React and Tailwind CSS.  
+This is **Day 1** of my **100 Days of React Challenge**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Generate **random gradients** with one click 🎲
+- Switch between **Linear** and **Radial** gradient types
+- Control **gradient angle** (for linear gradients) using a slider
+- Copy the generated CSS gradient code
+- Clean and responsive UI with TailwindCSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+![App Screenshot](./screenshot.png)  
+*(Add your app screenshot here)*
+
+---
+
+## 🛠️ Tech Stack
+- [React](https://reactjs.org/) ⚛️
+- [Tailwind CSS](https://tailwindcss.com/) 🎨
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/100-days-of-react.git
+
+# Navigate to Day 1 project
+cd 100-days-of-react/day-1-gradient-generator
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
