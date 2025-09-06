@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { ViewContext } from '../context/ViewContext'
 
 const NavBar = () => {
-    const { view, setView, gradientType, setGradientType, gradient } = useContext(ViewContext)
+    const { view, setView, gradientType, setGradientType, gradient, theme, setTheme } = useContext(ViewContext)
     return (
         <>
             <nav className='w-full py-4 px-20 bg-white items-center flex justify-between shadow sticky top-0 z-10'>
@@ -29,6 +29,24 @@ const NavBar = () => {
                                 }`}
                         >
                             Radial
+                        </button>
+                    </div>
+                    <div className="flex items-center bg-gray-200 rounded-full p-1 cursor-pointer">
+                        <button onClick={() => setTheme("light")}
+                            className={`cursor-pointer px-4 py-1 rounded-full text-sm font-medium transition ${theme === "light"
+                                ? "bg-blue-600 text-white shadow hover:bg-blue-700"
+                                : "text-gray-700 hover:bg-gray-300"
+                                }`}
+                        >
+                            Light
+                        </button>
+                        <button onClick={() => setTheme("dark")}
+                            className={`cursor-pointer px-4 py-1 rounded-full text-sm font-medium transition ${theme === "dark"
+                                ? "bg-blue-600 text-white shadow hover:bg-blue-700"
+                                : "text-gray-700 hover:bg-gray-300"
+                                }`}
+                        >
+                            Dark
                         </button>
                     </div>
                     <button onClick={() => {

@@ -5,10 +5,10 @@ import { FaShuffle } from "react-icons/fa6";
 const CardPage = () => {
     const { gradientType, gradient, degree, setDegree, generateGradient } = useContext(ViewContext)
 
-    useEffect(() => {
-        if (!gradient)
-            generateGradient()
-    }, [gradientType])
+    // useEffect(() => {
+    //     if (!gradient)
+    //         generateGradient()
+    // }, [gradientType])
     return (
         <div className='flex flex-col justify-center items-center min-h-[80vh] p-8'>
             <div className='w-96 h-56 shadow-lg mb-6 rounded-2xl' style={{ background: gradient }}>
