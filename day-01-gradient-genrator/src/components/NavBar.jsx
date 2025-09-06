@@ -15,17 +15,17 @@ const NavBar = () => {
                 <div className='flex gap-6 align-centre'>
                     <div className="flex items-center bg-gray-200 rounded-full p-1 cursor-pointer">
                         <button onClick={() => setGradientType("linear-gradient")}
-                            className={`px-4 py-1 rounded-full text-sm font-medium transition ${gradientType === "linear-gradient"
-                                ? "bg-blue-600 text-white shadow"
-                                : "text-gray-700"
+                            className={`cursor-pointer px-4 py-1 rounded-full text-sm font-medium transition ${gradientType === "linear-gradient"
+                                ? "bg-blue-600 text-white shadow hover:bg-blue-700"
+                                : "text-gray-700 hover:bg-gray-300"
                                 }`}
                         >
                             Linear
                         </button>
                         <button onClick={() => setGradientType("radial-gradient")}
-                            className={`px-4 py-1 rounded-full text-sm font-medium transition ${gradientType === "radial-gradient"
-                                ? "bg-blue-600 text-white shadow"
-                                : "text-gray-700"
+                            className={`cursor-pointer px-4 py-1 rounded-full text-sm font-medium transition ${gradientType === "radial-gradient"
+                                ? "bg-blue-600 text-white shadow hover:bg-blue-700"
+                                : "text-gray-700 hover:bg-gray-300"
                                 }`}
                         >
                             Radial
