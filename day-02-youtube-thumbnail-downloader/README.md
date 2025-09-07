@@ -17,6 +17,11 @@ On Day 2, I built a **YouTube Thumbnail Downloader** app using **React, Tailwind
 
 ---
 
+## 📸 Preview
+![App Screenshot](./image.PNG)
+
+---
+
 ## 🚀 Tech Stack
 - **React.js** (Frontend Framework)  
 - **TailwindCSS** (Styling)  
