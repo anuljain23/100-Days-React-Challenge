@@ -14,6 +14,11 @@ Today’s project is an **Avatar Image Generator** where users can generate rand
 
 ---
 
+## 📸 Preview
+![App Screenshot](./image.PNG)
+
+---
+
 ## 🛠️ Tech Stack
 - **React.js**
 - **Tailwind CSS** (for styling)
